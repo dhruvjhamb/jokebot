@@ -13,7 +13,8 @@ def deliver_joke(prompt, punchline):
 def read_input():
 	""" Reads user input. """
 	while True: 
-		user_input = input("Enter next for another joke or quit to exit:\n")
+		print(">> Enter next for another joke or quit to exit:")
+		user_input = input(">> ")
 
 		if user_input == "next":
 			return True
